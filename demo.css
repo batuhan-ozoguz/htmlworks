@@ -9,25 +9,56 @@ body{
     margin-bottom: 30px;
 }
 
-h1{padding-top: 20px;
+.bg-ground+h1{
     text-align: center;
     text-decoration: bold;
+    padding-bottom: 20px;
 }
-.text-box
+.bg-ground
 {
+    padding: 50px;
+    padding-top:10px;
     margin-top: 20px;
     border-radius: 10px;
-  box-sizing: border-box;
-    width: 70%;
+    box-sizing: border-box;
+    width: 90%;
     margin: 20px auto;
-    height: 1100px;
+    height:450%;
     background-color: white;
     text-align: center;
     line-height: 20px;
-    margin-top: 20px;
+   
 }
-.img1 img{
+.images img{
+   margin-top:50px;
+    margin-bottom: 50px;
     width: 40%;
     margin: 20px, auto;
+    
+}
+
+    
+
+.text-box h1,li
+{
+    text-align: left;
+    list-style-type:"- ";
+    
+}
+
+.text-box p{
+    text-align:left !important;
+    
+}
+.button
+{ margin-top: 50px;
+    text-align: center;
+ 
+    
+}
+.button input{
+    background-color: orange;
+    color: white;
+    width: 100px;
     
 }
