@@ -1,64 +1,72 @@
-
-body{
-
-    background-color: orange;
+body {
+    background: linear-gradient(90deg, rgba(250, 134, 50, 1) 2%, rgba(250, 170, 50, 0.9920343137254902) 34%);
 }
 
-.logo{
+.logo {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.bg-ground+h1{
+.bg-ground+h1 {
+    font-weight: lighter;
     text-align: center;
-    text-decoration: bold;
-    padding-bottom: 20px;
+    text-decoration: ;
+    padding-bottom: 30px;
 }
-.bg-ground
-{
+.headText {
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: ;
+    padding-bottom: 40px;
+}
+
+.bg-ground {
     padding: 50px;
-    padding-top:10px;
+    padding-top: 10px;
     margin-top: 20px;
     border-radius: 10px;
     box-sizing: border-box;
     width: 90%;
     margin: 20px auto;
-    height:450%;
+    height: 280%;
     background-color: white;
     text-align: center;
     line-height: 20px;
-   
 }
-.images img{
-   margin-top:50px;
+
+.images img {
+    margin-top: 50px;
     margin-bottom: 50px;
     width: 40%;
     margin: 20px, auto;
-    
 }
 
+.text-box h1, li {
     
-
-.text-box h1,li
-{
+    font-weight: normal;
     text-align: left;
-    list-style-type:"- ";
-    
+    list-style-type: disc;
+    font-family: 'Arimo', sans-serif;
 }
 
-.text-box p{
-    text-align:left !important;
-    
+.text-box p {
+    font-size: large;
+    text-align: left !important;
+    font-family: 'Arimo', sans-serif;
 }
-.button
-{ margin-top: 50px;
+
+.buttonKnowledgeBase {
+    font-family: 'Arimo', sans-serif;
+    margin-top: 50px;
     text-align: center;
- 
-    
 }
-.button input{
-    background-color: orange;
-    color: white;
-    width: 100px;
-    
+
+.buttonSupport {
+    font-family: 'Arimo', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+div.class=text-box {
+    text-indent: 50px;
 }
